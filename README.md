@@ -7,41 +7,40 @@ The template used from the course (&quot;<a href="https://www.youtube.com/watch?
 <li class="has-line-data" data-line-start="5" data-line-end="6">php</li>
 <li class="has-line-data" data-line-start="6" data-line-end="7">mysql</li>
 </ol>
-### Installation
-
-1. Download as as Zip or Clone this project
-2. Move this project to Root Directory
-```
-Local Disc C: -> xampp -> htdocs -> 'this project'
-```
-*Local Disk C is the location where xampp was installed*
-
-3. Open XAMPP Control Panel and Start 'Apache' and 'MySQL'
-
-4. Import Database
-
-a. Open 'phpmyadmin' in your browser
-b. Create a Database
-c. Import the SQL file provided with this project
-
-5. Make Changes to settings
-
-Go to 'config' folder and Open 'db.php' file. Then make changes on following constants
-```php
-<?php 
+<h3 class="code-line" data-line-start=0 data-line-end=1 ><a id="Installation_0"></a>Installation</h3>
+<ol>
+<li class="has-line-data" data-line-start="2" data-line-end="3">Download as as Zip or Clone this project</li>
+<li class="has-line-data" data-line-start="3" data-line-end="4">Move this project to Root Directory</li>
+</ol>
+<pre><code class="has-line-data" data-line-start="5" data-line-end="7">Local Disc C: -&gt; xampp -&gt; htdocs -&gt; 'this project'
+</code></pre>
+<p class="has-line-data" data-line-start="7" data-line-end="8"><em>Local Disk C is the location where xampp was installed</em></p>
+<ol start="3">
+<li class="has-line-data" data-line-start="9" data-line-end="11">
+<p class="has-line-data" data-line-start="9" data-line-end="10">Open XAMPP Control Panel and Start ‘Apache’ and ‘MySQL’</p>
+</li>
+<li class="has-line-data" data-line-start="11" data-line-end="13">
+<p class="has-line-data" data-line-start="11" data-line-end="12">Import Database</p>
+</li>
+</ol>
+<p class="has-line-data" data-line-start="13" data-line-end="16">a. Open ‘phpmyadmin’ in your browser<br>
+b. Create a Database<br>
+c. Import the SQL file provided with this project</p>
+<ol start="5">
+<li class="has-line-data" data-line-start="17" data-line-end="19">Make Changes to settings</li>
+</ol>
+<p class="has-line-data" data-line-start="19" data-line-end="20">Go to ‘config’ folder and Open ‘db.php’ file. Then make changes on following constants</p>
+<pre><code class="has-line-data" data-line-start="21" data-line-end="32" class="language-php"><span class="hljs-preprocessor">&lt;?php</span> 
 session_start();
-$server= "localhost";
-$username= "root";
-$password= "";
-$dbname= "food_order";
+<span class="hljs-variable">$server</span>= <span class="hljs-string">"localhost"</span>;
+<span class="hljs-variable">$username</span>= <span class="hljs-string">"root"</span>;
+<span class="hljs-variable">$password</span>= <span class="hljs-string">""</span>;
+<span class="hljs-variable">$dbname</span>= <span class="hljs-string">"food_order"</span>;
 
 
-$conn = mysqli_connect($server,$username,$password,$dbname);
+<span class="hljs-variable">$conn</span> = mysqli_connect(<span class="hljs-variable">$server</span>,<span class="hljs-variable">$username</span>,<span class="hljs-variable">$password</span>,<span class="hljs-variable">$dbname</span>);
 
-?>
-```
-
-6. Now, Open the project in your browser. It should run perfectly.
+<span class="hljs-preprocessor">?&gt;</span></code></pre>
 ## Follow Me on
 1. LinkedIn - [mustafa anwar](https://www.linkedin.com/in/mustafa-anwar-63b79b199/")
 3. Facebook - [mustafa anwar](https://www.facebook.com/mustafa.anwar.98096721")
