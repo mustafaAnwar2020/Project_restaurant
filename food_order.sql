@@ -121,7 +121,7 @@ INSERT INTO `orders` (`id`, `food`, `price`, `qty`, `total`, `date`, `status`, `
 (1, 'Sadeko Momo', '6', 10, '60', '2020-11-30 03:49:48', 'Cancelled', 'Bradley Farrell', '+1 (576) 504-4657', 'zuhafiq@mailinator.com', 'Duis aliqua Qui lor '),
 (2, 'Best Burger', '4', 7, '28', '2020-11-30 03:52:43', 'Delivered', 'Kelly Dillard', '+1 (908) 914-3106', 'fexekihor@mailinator.com', 'Incidunt ipsum ad d'),
 (3, 'Mixed Pizza', '10', 2, '20', '2020-11-30 04:07:17', 'Delivered', 'Jana Bush', '+1 (562) 101-2028', 'tydujy@mailinator.com', 'Minima iure ducimus'),
-(4, 'pizza', '12', 4, '48', '2021-09-07 03:51:30', 'Delivered', 'Mustafa Anwar', '123123', 'test@gmail.com', 'https://github.com/mustafaAnwar2020/Project_restaurant'),
+(4, 'pizza', '12', 4, '48', '2021-09-07 03:51:30', 'Delivered', 'Mustafa Anwar', '123123', 'test@gmail.com', 'test'),
 (5, 'pizza', '12', 1, '12', '2021-09-07 03:52:57', 'Delivered', 'Mustafa Anwar', '123', 'test@gmail.com', 'test'),
 (6, 'koshary', '10', 0, '0', '2021-09-09 12:11:51', 'Delivered', 'Mustafa Anwar', '122223', 'test@gmail.com', 'test'),
 (7, 'koshary', '10', 1, '10', '2021-09-09 12:12:06', 'Cancelled', 'Mustafa Anwar', '123', 'test@gmail.com', 'test'),
